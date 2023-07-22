@@ -1,0 +1,50 @@
+.contact-main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(200px, 1fr);
+  grid-auto-columns: minmax(200px, 1fr);
+  row-gap: 2rem;
+  column-gap: 2rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: center;
+}
+.contact-header {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 30%,
+      rgba(0, 0, 0, 0.5) 30%
+    ),
+    url(../../public/Imgs/contact-img1.jpg);
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  position: relative;
+  top: 0rem;
+  z-index: -1;
+}
+.contact-item {
+  text-align: center;
+  align-items: center;
+  background-color: beige;
+  width: 100%;
+  height: 100%;
+}
+.contact-header > h1 {
+  color: yellow;
+  position: relative;
+  font-size: 3rem;
+  left: 45%;
+}
+.contact-main-content {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contact-item > h3 {
+  margin: 1rem;
+}
+body {
+  overflow-x: hidden;
+}

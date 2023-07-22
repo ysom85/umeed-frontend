@@ -1,0 +1,265 @@
+/* * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Gill Sans", sans-serif;
+  }
+  html::-webkit-scrollbar {
+    width: 0rem;
+  } */
+.donate-fa-solid {
+  align-items: center;
+  text-align: center;
+}
+header {
+  background-color: #070a10;
+  display: flex;
+  opacity: 0.9;
+  width: 100%;
+  align-items: center;
+}
+header h1 {
+  padding: 15px 0 7px 41px;
+  color: white;
+  font-size: 40px;
+}
+header h1 span {
+  color: yellow;
+  font-size: 25px;
+}
+
+header img {
+  margin-left: auto;
+  /* margin-right: 10%; */
+  padding: 12px;
+  color: white;
+}
+.donate-header h3 h2 {
+  font-size: 25px;
+  color: white;
+}
+.donate-number {
+  font-size: 25px;
+  color: yellow;
+  padding-right: 3rem;
+}
+
+.donate-section {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 30%,
+      rgba(0, 0, 0, 0.5) 30%
+    ),
+    url(../../public/Donate/backumeed.png);
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+
+  height: 100vh;
+  display: flex;
+  position: relative;
+  top: 0rem;
+  z-index: -1;
+}
+.donate-text {
+  padding-left: 50px;
+  width: 60%;
+}
+.donate-text h1 {
+  font-size: 80px;
+  color: white;
+}
+.donate-text span {
+  color: yellow;
+}
+.donate-text p {
+  color: white;
+}
+
+.contentbox {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.donate-login-box {
+  top: 2rem;
+  position: relative;
+  width: 18rem;
+  height: 27rem;
+  background-color: yellow;
+  padding: 1.5rem;
+  padding-top: 2.5rem;
+  align-items: center;
+  justify-self: center;
+}
+.donate-login-box .heading {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+}
+.donate-login-box .content {
+  text-align: center;
+  font-size: 15px;
+  padding-left: 19px;
+  padding-right: 23px;
+}
+.donate-login-box .form_donate-section {
+  padding-top: 1rem;
+  text-align: center;
+}
+.donate-login-box .form_donate-section input {
+  border: none;
+  margin: 3px;
+  font-size: 15px;
+  padding: 10px;
+}
+.donate-login-box .form_donate-section .submit {
+  width: 100%;
+  padding-top: 10px;
+}
+.donate-login-box .form_donate-section .submit button {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+  width: 88%;
+}
+
+.donate-lower {
+  display: flex;
+  position: relative;
+  padding: 1rem;
+  padding-top: 4rem;
+  flex-wrap: wrap;
+  padding-bottom: 3rem;
+  top: -5rem;
+  justify-content: center;
+  /* background: #d3c1c1; */
+}
+.donate-lower::before {
+  content: "";
+  position: absolute;
+  height: 39.2rem;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  background-color: white;
+}
+.donate-helping_children,
+.donate-studentedu,
+.donate-forbetterliving {
+  /* border: 2px solid black; */
+  display: flex;
+  height: 27rem;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+}
+.donate-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgb(255, 255, 3);
+  justify-content: space-around;
+  border: 2px solid black;
+  border-spacing: 2px;
+  text-align: center;
+}
+/* .image p{
+      width: 20rem;
+      text-align: center;
+  } */
+.donate-fa-solid {
+  font-size: 100px;
+  color: white;
+  margin: 47px 31px;
+}
+.donate-image h2 {
+  margin: 20px -15px;
+  text-align: center;
+}
+.donate-lower p {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  header h1 {
+    font-size: 30px;
+  }
+  header img {
+    width: 35px;
+    height: 35px;
+  }
+  header h3 {
+    font-size: 20px;
+  }
+  .donate-text h1 {
+    font-size: 60px;
+  }
+  .donate-text {
+    padding-left: 40px;
+  }
+  .donate-section-login-box {
+    width: 15rem;
+    height: 23rem;
+    margin-right: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .donate-section {
+    display: flex;
+    flex-direction: column;
+    height: 140vh;
+  }
+  .donate-text {
+    width: 90%;
+    margin-top: 7rem;
+  }
+  header h1 {
+    font-size: 25px;
+  }
+  header h2 {
+    display: none;
+  }
+  .donate-text h1 {
+    font-size: 50px;
+  }
+  .donate-section .login-box {
+    height: 26rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 20px;
+  }
+  header h1 span {
+    font-size: 20px;
+  }
+  header .number {
+    display: none;
+  }
+  .donate-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    object-fit: fill;
+  }
+  .donate-text {
+    width: 90%;
+    margin-top: 2rem;
+  }
+  .donate-text h1 {
+    font-size: 30px;
+  }
+  .donate-section .contentbox {
+    width: 100%;
+  }
+}

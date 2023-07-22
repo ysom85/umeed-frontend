@@ -1,0 +1,5 @@
+.news-croselsize {
+  width: 25rem;
+  height: 20rem;
+  overflow-x: auto;
+}

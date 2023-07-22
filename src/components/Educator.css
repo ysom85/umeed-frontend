@@ -1,0 +1,29 @@
+.educator-table-div {
+  overflow-x: auto;
+}
+.educator-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0);
+}
+.educator-table th td {
+  text-align: left;
+  padding: 8px;
+}
+.educator-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.educator-table tr {
+  line-height: 30px;
+}
+@media only screen and (max-width: 450px) {
+  .educator-table-display {
+    font-size: 0.7rem;
+  }
+
+  .educator-table td {
+    font-size: 0.7rem;
+    padding: 0px;
+  }
+}

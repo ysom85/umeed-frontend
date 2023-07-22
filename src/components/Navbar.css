@@ -1,0 +1,169 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.u-logo-and-u-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1.2%;
+  margin-left: 2%;
+  box-sizing: border-box;
+}
+.u-logo {
+  height: 100%;
+}
+.logo-display {
+  width: 7rem;
+  size: auto;
+}
+.picture {
+  width: 100%;
+  size: auto;
+}
+.u-name {
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  color: #c6d042;
+  font-weight: bold;
+}
+.c-logo {
+  padding-top: 0.8%;
+  width: 6rem;
+  size: auto;
+  margin-right: 1%;
+}
+.navbar-header {
+  background-color: #161316;
+  padding: 0.3%;
+  text-align: center;
+  /* align-items: center; */
+}
+.leaf {
+  text-decoration: none;
+  display: inline;
+  color: #000;
+  margin-left: 2%;
+  font-size: 1.2rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.leaf :hover {
+  color: red;
+}
+
+li {
+  list-style-type: none;
+}
+.leaf .icon {
+  margin-right: 0.2%;
+  margin-bottom: 0.2rem;
+  font-size: 1.4rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.expanded {
+  display: none;
+  width: 150%;
+  align-items: center;
+  position: absolute;
+  list-style-type: none;
+  text-decoration: none !important;
+  top: 100%;
+  background-color: #000;
+  z-index: 1000;
+  font-size: 1rem;
+  padding-left: 0;
+  left: -30px;
+  border-radius: 2%;
+  font-size: 1rem;
+}
+.leaf:hover .expanded {
+  display: flex;
+  flex-direction: column;
+}
+.expanded a {
+  width: 100%;
+}
+
+.expanded-item {
+  width: 100%;
+  text-align: center;
+  color: white !important;
+  padding: 5% 0;
+  margin: 0px;
+}
+.expanded-item:hover {
+  cursor: pointer;
+  background-color: red;
+}
+.close-open-size {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+.open-close-size {
+  text-align: right;
+}
+
+.close-open {
+  color: white;
+  padding: 0px 0px;
+  border: none;
+  cursor: pointer;
+  text-align: right;
+  height: 2rem;
+  margin-right: 1rem;
+}
+.mobile-nav {
+  display: none;
+}
+.side-bar {
+  position: inherit;
+}
+@media only screen and (max-width: 768px) {
+  .mobile-nav {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .u-name {
+    font-size: 1rem;
+  }
+  .c-logo {
+    width: 4rem;
+  }
+  .logo-display {
+    width: 5rem;
+  }
+  .navbar-header {
+    display: none;
+  }
+}
+@media only screen and (max-width: 595px) {
+  .u-name {
+    font-size: 10px;
+  }
+
+  .logo-display {
+    width: 4rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .leaf {
+    font-size: 0.8rem;
+    margin-left: 1%;
+    margin-top: 0%;
+  }
+  .leaf .icon {
+    margin-right: 0.1%;
+    margin-top: 0.1rem;
+    font-size: 1rem;
+  }
+}

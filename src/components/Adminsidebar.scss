@@ -1,0 +1,13 @@
+$sidebar-height: 100%;
+$sidebar-bg-color: black;
+$sidebar-color: white;
+$submenu-bg-color: black;
+$icon-bg-color: white;
+$icon-size: 45px;
+$sidebar-collapsed-width: 0px;
+
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+.pro-sidebar {
+  position: absolute;
+  height: 100%;
+}
